@@ -1,0 +1,51 @@
+.prevUserInfo, .prevUserInfoCommunity {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.prevUserInfo {
+    transform: translateX(-2.7rem);
+    padding: 2% 0;
+}
+
+.prevUserInfoCommunity {
+    padding: 3% 5%;
+}
+
+.subContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.userInfoContainer {
+    margin-left: 10px;
+}
+
+.userInfoSubContainer {
+    display: flex;
+}
+
+.dot {
+    margin: 0 -2.5px;
+    font-size: 1.5rem;
+}
+
+
+.profilePicture {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1px;
+    border-radius: 25px;
+    background: #1DA1F2;
+    color: white;
+    font-size: 1em;
+}

@@ -1,0 +1,78 @@
+.Input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+   
+}
+
+
+.Input .element, .elementTextarea {
+    display: block;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    outline: none;
+    border: 1px solid #657786;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-family: 'Noto sans JP';
+    padding: 15px 0 5px 12px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+
+.label, .labelTextarea {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    left: 10px;
+    margin-left: 3px;
+    color: #657786;
+    font-weight: 500;
+    transition: all .3s ease-out;
+    
+}
+
+
+.element.focused, .elementTextarea.focused {
+    border: 2px solid #1DA1F2;
+}
+
+.element.focused + .label, .elementTextarea.focused + .labelTextarea {
+    transform: translateY(0%);
+    color: #1DA1F2;
+    font-size: .7rem;
+}
+
+.element.focused + label {
+    bottom: 62%;
+}
+
+.elementTextarea.focused + .labelTextarea {
+    bottom: 74%;
+}
+
+.label.full, .labelTextarea.full {
+    transform: translateY(0%);
+    color: #657786;
+    font-size: .7rem;
+}
+
+.label.full {
+    bottom: 62%;
+}
+
+.labelTextarea.full {
+    bottom: 74%;
+}
+
+.errorMessage {
+    position: absolute;
+    left: 3px;
+    font-size: .9rem;
+    font-weight: 500;
+    color: #f4212e;
+}
+

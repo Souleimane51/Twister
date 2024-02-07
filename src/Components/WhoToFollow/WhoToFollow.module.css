@@ -1,0 +1,154 @@
+.WhoToFollow {
+    width: 20rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 0 0 0;
+    border-radius: 25px;
+    background: #F7F9F9;
+}
+
+.mainContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    transition: .2s;
+    cursor: pointer;
+    user-select: none;
+}
+.mainContainer:hover {
+    background: #ededed;
+}
+
+.widgetsTitle {
+    width: 100%;
+    padding: 0 0 .5rem 1rem;
+    text-align: start;
+}
+
+.widgetsTitle h2 {
+    font-size: 1.4rem
+}
+
+.profilePicture {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1px;
+    border-radius: 25px;
+    background: #1DA1F2;
+    color: white;
+    font-size: 1em;
+}
+
+.container {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.subContainer {
+    display: flex;
+    align-items: center;
+}
+
+.fullName {
+    max-width: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.username {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .9rem;
+    color: 	#657786;
+}
+
+.button {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+}
+
+.linkContainer {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-decoration: none;
+    transition: .2s;
+}
+.linkContainer:hover {
+    background: #ededed;
+}
+.linkContainer:hover .arrow {
+    transform: translateX(5px);
+}
+
+.text {
+    color: #1DA1F2;
+    font-size: .9rem;
+}
+
+.arrow {
+    color: #1DA1F2;
+    margin-top: 3px;
+    transition: .3s ease-out;
+}
+
+
+@media all and (max-width: 1350px) {
+
+    .WhoToFollow {
+        width: 17rem;
+    }
+
+    .fullName, .username {
+        max-width: 100px;
+    }
+}
+
+@media all and (max-width: 1215px) {
+
+    .WhoToFollow {
+        width: 15rem;
+    }
+
+    .profilePicture {
+        display: none;
+    }
+
+    .fullName, .username{
+        max-width: 120px;
+    }
+}
+
+@media all and (max-width: 1140px) {
+
+    .WhoToFollow {
+        margin-right: 2rem;
+    }
+}
+
+@media all and (max-width: 995px) {
+
+    .WhoToFollow {
+        display: none;
+    }
+
+}

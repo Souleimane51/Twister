@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #E1E8ED;
+    text-decoration: none;
+    transition: .3s;
+}
+
+
+.container.containerLoading:hover {
+    background: #fff;
+}
+
+.containerLoading {
+    border-top: 1px solid #E1E8ED;
+}

@@ -1,0 +1,63 @@
+.Layout {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.pageNameContainer {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem;
+    border-bottom: 1px solid #E1E8ED;
+}
+
+.arrowContainer {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px 0 10px;
+    border-radius: 20px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.arrowContainer:hover {
+    background: #f1f1f1;
+}
+
+.arrow {
+    font-size: 1.8rem;
+    
+}
+
+.pageNameContainer h1 {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.children {
+    overflow: auto;
+    min-width: 600px;
+    max-width: 650px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    background-clip: content-box; 
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background: #179ef1;
+    border-radius: 10px;
+}

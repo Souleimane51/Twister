@@ -1,0 +1,33 @@
+.Navbar {
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    width: 30vw;
+    border-right: 1px solid #E1E8ED;
+}
+
+.container {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.logo {
+    width: 90px;
+    margin: 3rem 1rem;
+}
+
+@media all and (max-width: 1175px) {
+
+    .container {
+        align-items: center;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .logo {
+        width: 70px;
+    }
+}

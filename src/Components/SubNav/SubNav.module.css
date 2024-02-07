@@ -1,0 +1,7 @@
+.SubNav {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0 0 0;
+}

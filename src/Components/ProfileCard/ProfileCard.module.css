@@ -1,0 +1,120 @@
+.banner {
+    width: 100%;
+    height: 23vh;
+    background: #E1E8ED;
+}
+
+.profilePictureContainer {
+    transform: translateY(-55%);
+    margin-left: 3%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.firstLetterName {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1da1f2;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.buttonContainerPersonal, .buttonContainerPublic {
+    width: fit-content;
+    position: relative;
+}
+
+.buttonContainerPublic {
+    top: -13vh;
+    left: 78%;
+}
+
+.buttonContainerPersonal {
+    top: -13vh;
+    left: 75%;
+}
+
+.middleContainer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12%;
+    padding: 4%;
+}
+
+.middleSubContainer {
+    width: 100%;
+}
+
+.username {
+    font-size: .95rem;
+    color: #657786;
+}
+
+.desc {
+    font-size: .9rem;
+    color: #4A4A4A;
+    margin-top: 1rem;
+}
+
+.about {
+    display: flex;
+    width: fit-content;
+    margin: 1.3rem 0;
+}
+
+.location, .website, .joinDate {
+    display: flex;
+    align-items: center;
+    color: #657786;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.website a {
+    text-decoration: none;
+    color: #657786;
+}
+
+.website a:hover {
+    color: #536471;
+}
+
+.icon {
+    font-size: 1.2rem;
+}
+
+.aboutContent {
+    margin: 0 1.5rem 0 .5rem;
+    max-width: 175px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.popularity {
+    display: flex;
+    font-weight: 600;
+    color: #657786;
+}
+
+.followers {
+    margin-right: 1rem;
+}
+
+.followers b, .following b {
+    color: #151515;
+}
+

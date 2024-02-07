@@ -1,0 +1,104 @@
+/* General button design */
+.button {
+    width: 100%;
+    height: 100%;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: .2s;
+    cursor: pointer;
+    
+}
+
+/* Button Dark */
+.Button_dark {
+    border: solid 1px #14171A;
+    background: #14171A;
+    color: white;
+}
+.Button_dark:hover {
+    background: #282c31;
+}
+
+
+/* Button Dark Mini */
+.Button_dark_mini {
+    padding: 8px 15px;
+    font-size: .9rem;
+    border: solid 1px #14171A;
+    background: #14171A;
+    color: white;
+}
+.Button_dark_mini:hover {
+    background: #282c31;
+}
+
+/* Button Red */
+.Button_red_medium {
+    font-size: 1.1rem;
+    border: solid 1px #ebbdbd;
+    background: #ffdbdb;
+    color: #ff5f5f;
+}
+.Button_red_medium:hover {
+    background: #ffafaf;
+}
+
+/* Button Red Mini */
+.Button_red_mini {
+    padding: 8px 15px;
+    font-size: .9rem;
+    border: solid 1px #ebbdbd;
+    background: #ffdbdb;
+    color: #ff5f5f;
+}
+.Button_red_mini:hover {
+    background: #ffafaf;
+}
+
+/* Button Light */
+.Button_light {
+    border: solid 1px #E1E8ED;
+    background: #fff;
+    color: black;
+}
+.Button_light:hover {
+    background: #e6eaed;
+}
+
+/* Button Light */
+.Button_light_medium {
+    font-size: 1.1rem;
+    border: solid 1px #E1E8ED;
+    background: #fff;
+    color: black;
+}
+.Button_light_medium:hover {
+    background: #e6eaed;
+}
+
+
+
+/* Button twist */
+.Button_twist {
+    padding: 12px 10px;
+    border: solid 1px #1DA1F2;
+    background: #1DA1F2;
+    color: white;
+}
+.Button_twist:hover {
+    background: #1a8cd8;
+}
+
+/* Button twist */
+.Button_twist_mini {
+    padding: 5px 10px;
+    font-size: .8rem;
+    border: solid 1px #1DA1F2;
+    background: #1DA1F2;
+    color: white;
+}
+.Button_twist_mini:hover {
+    background: #1a8cd8;
+}

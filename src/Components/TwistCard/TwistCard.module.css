@@ -1,0 +1,137 @@
+.linkPart {
+    padding: 1rem 3.5rem 0 3.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.linkPart:hover {
+    background: #f4f5f6;
+}
+
+.container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #E1E8ED;
+    padding: 1rem 2rem 1rem 4rem;
+    text-decoration: none;
+}
+
+.cross {
+    padding: 1rem;
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(75px, -5px);
+}
+
+.userContainerPrev {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    transform: translateX(-2.7rem);
+}
+
+.userContainerFull {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userSubContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateX(-45px);
+}
+
+.userInfoContainerPrev {
+    display: flex;
+    align-items: center;
+}
+
+.userInfoContainerFull {
+    margin-left: 10px;
+}
+
+.namePrev, .nameFull {
+    color: #14171A;  
+}
+
+.namePrev {
+    margin: 0 .5rem;
+}
+
+.username,  .date {
+    font-size: .9rem;
+}
+
+.username, .dotIcon,  .date {
+    color: #657786;
+}
+
+.dotIcon {
+    margin: 0 -2px;
+    font-size: 1.5rem;
+}
+
+.profilePicturePrev, .profilePictureFull {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1px;
+    border-radius: 25px;
+    background: #1DA1F2;
+    color: white;
+    font-size: 1em;
+}
+
+.profilePicturePrev {
+    transform: translateY(10px);
+}
+
+.retwistFromPrev, .retwistFromFull {
+    font-size: .9rem;
+    font-weight: 300;
+    color: #292929;
+}
+
+.retwistFromPrev {
+    margin-bottom: 6px;
+}
+
+.retwistFromFull {
+    margin: 10px 0 0 0;
+}
+
+.retwistFromBold {
+    color: #879097;
+    font-weight: 500;
+}
+
+.contentPrev, .contentFull {
+    
+    color: #31363B;
+}
+
+.contentPrev {
+    margin-top: -4px;
+    
+}
+
+.contentFull {
+    margin: 10px 0 20px 0;
+}
+
+.line {
+    display: block;
+    width: 40%;
+    height: 1px;
+    margin: 1.5rem auto 0 auto;
+    background: #E1E8ED;
+}

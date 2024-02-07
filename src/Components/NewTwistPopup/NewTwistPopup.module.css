@@ -1,0 +1,126 @@
+.NewTwistPopup {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: #0000004d;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    position: relative;
+    height: fit-content;
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2% 5% 2% 5%;
+    border-bottom: 1px solid #E1E8ED;
+    background: #fff;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    z-index: 100;
+}
+
+
+.firstContainer {
+    display: flex;
+    align-items: center;
+    transform: translateX(-2.5rem);
+}
+
+.profilePicture {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .8rem;
+    padding-bottom: 1px;
+    border-radius: 25px;
+    background: #1DA1F2;
+    color: white;
+    font-size: 1.2em;
+}
+
+.label {
+    margin-bottom: .1rem;
+    font-size: .9rem;
+    color: #AAB8C2;
+}
+
+.select {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem .1rem .5rem;
+    border: 1px solid #AAB8C2;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #1DA1F2;
+    font-size: .8rem;
+    cursor: pointer;
+    transition: .2s;
+    user-select: none;
+}
+.select:hover {
+    background: #1da0f21d;
+}
+
+.modalContainer {
+    position: absolute;
+    left: 5%;
+    top: 26%;
+}
+
+.icon {
+    margin: .1rem 0 0 .2rem;
+}
+
+.secondContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E1E8ED;
+}
+
+.textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #414c55;
+    resize: none;
+    margin: 1.5rem 0;
+}
+
+.button {
+    width: 4rem;
+    margin-top: 1rem;
+    align-self: flex-end;
+}
+
+.crossIcon {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.crossIcon:hover {
+    color: #1DA1F2;
+}

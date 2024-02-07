@@ -1,0 +1,20 @@
+.WidgetsBar {
+    display: flex;
+    justify-content: start;
+    height: 100%;
+    width: 30vw;
+    padding: 1rem 0 0 1rem;
+    border-left: 1px solid #E1E8ED;
+}
+
+.container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (max-width: 995px) {
+    .WidgetsBar {
+        padding: 0;
+    }
+}

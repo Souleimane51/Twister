@@ -1,0 +1,119 @@
+.main {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #E1E8ED;   
+    padding: 1.5rem 3rem 1.5rem 4.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userContainer {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    transform: translateX(-2.7rem);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.profilePicture {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(10px);
+    padding-bottom: 1px;
+    border-radius: 25px;
+    background: #1DA1F2;
+    color: white;
+    font-size: 1em;
+}
+
+.name {
+    max-width: 175px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #14171A;
+    margin: 0 .5rem;
+}
+
+.username {
+    max-width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.username,  .date {
+    font-size: .9rem;
+}
+
+.username, .dotIcon,  .date {
+    color: #657786;
+}
+
+.date {
+    max-width: 175px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dotIcon {
+    margin: 0 -2px;
+    font-size: 1.5rem;
+}
+
+.content {
+    margin-top: -4px;
+    color: #31363B;
+}
+
+.LikesIconContainer {
+    width: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.iconLikes {
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    transition: .2s;
+}
+
+.LikesValue {
+    color: #AAB8C2;
+    transition: .15s;
+    transition: .2s;
+}
+
+
+.likes.active,
+.LikesIconContainer:hover .likes {
+    color: #f91880;;
+}
+
+.LikesIconContainer:hover .iconLikes {
+    background: #f918811f;
+}
+
+.containerLoading {
+    border-top: 1px solid #E1E8ED;
+}

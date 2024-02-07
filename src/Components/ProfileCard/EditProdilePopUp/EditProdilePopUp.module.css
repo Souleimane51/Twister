@@ -1,0 +1,209 @@
+.EditProdilePopUp {
+    display: none;
+
+}
+
+.EditProdilePopUp.active {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #0000004d;
+    z-index: 1000;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.EditProdilePopUpContainer {
+    max-width: 600px;
+    width: 60%;
+    height: 95%;
+    background: #fff;
+    position: relative;
+    top: 2vh;
+    left: 50%;
+    transform: translateX(-50%);   
+    border-radius: 15px;
+    overflow-y: scroll;
+    z-index: 1000;
+}
+
+
+
+.topContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 3%;
+}
+
+.crossContainer {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    background: #fff;
+    border-radius: 50%;
+    transition: background .3s;
+    /* cursor: pointer; */
+}
+
+.cross {
+    font-size: 1.9rem;
+    margin: .3rem .4rem .1rem .4rem;
+}
+
+.crossContainer:hover {
+    background: #f1f1f1;
+}
+
+.popUpTitle  {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.topLeft {
+    display: flex;
+    align-items: center;    
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background: #E1E8ED;
+}
+
+.profilePictureContainer {
+    transform: translateY(-55%);
+    margin-left: 5%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+    overflow: hidden;
+}
+
+.bannerContainer {
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.firstLetterName {
+    width: 94%;
+    height: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1da1f2;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.profileUploadContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* cursor: pointer; */
+}
+
+.bannerUploadContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* cursor: pointer; */
+}
+
+.inputFile {
+    display: none;
+}
+
+.bannerPicture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profilePicture {
+    width: 94%;
+    height: 94%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bgProfileFilter {
+    position: absolute;
+    width: 94%;
+    height: 94%;
+    border-radius: 50%;
+    background: #00000038;
+}
+
+.bgBannerFilter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000038;
+}
+
+.addPhotoIcon {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.profileIconBackCircle, .bannerIconBackCircle {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00000099;
+    border-radius: 50%;
+    transition: .2s;  
+}
+
+.bannerIconBackCircle {
+    padding: 1.1rem;
+}
+
+.profileIconBackCircle {
+    padding: .5rem;
+}
+
+.bannerUploadContainer:hover .bannerIconBackCircle {
+    background: #000000b3;
+}
+
+.profileUploadContainer:hover .profileIconBackCircle {
+    background: #000000b3;
+}
+
+.fields {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -7%;
+}
